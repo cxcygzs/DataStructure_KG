@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <style>
+        body {
+            background: url("../static/images/aaabg_01.jpg") no-repeat center center;
+            background-size: cover; /* 让背景图基于容器大小伸缩 */
+            background-attachment: fixed; /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+        }
+
+        .rg_layout {
+            margin-top: 50px;
+            width: 900px;
+            height: 500px;
+            border: 8px solid #EEEEEE;
+            background-color: white;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .rg_left {
+            float: left;
+            margin: 15px;
+        }
+
+        .rg_center {
+            float: left;
+        }
+
+        .rg_right {
+            float: right;
+            margin: 15px;
+        }
+
+        .rg_right li {
+            margin: 10px;
+            font-size: 16px;
+            color: red;
+        }
+
+        .rg_left > p:first-child {
+            /*color: #FFD026;*/
+            color: #EE3C26;
+            font-size: 20px;
+        }
+
+        .rg_left > p:last-child {
+            color: #A6A6A6;
+            font-size: 14px;
+        }
+
+        .rg_right > p:first-child {
+            font-size: 15px;
+
+        }
+
+        .rg_right p a {
+            color: pink;
+        }
+
+        .td_left {
+            width: 100px;
+            height: 45px;
+            text-align: right;
+        }
+
+        .td_right {
+            padding-left: 50px;
+        }
+
+        #username,
+        #password,
+        #email,
+        #repassword,
+        #tel,
+        #birthday {
+            width: 251px;
+            height: 32px;
+            border: 1px solid #A6A6A6;
+            border-radius: 5px;
+            padding-left: 10px;
+        }
+
+
+        #btn_sub {
+            margin-top: 25px;
+            width: 150px;
+            height: 31px;
+            border-radius: 10px;
+            border: 0;
+            color: #FFFFFF;
+            font-size: 17px;
+
+            background: linear-gradient(45deg, lightgreen, lightblue, lightgoldenrodyellow);
+        }
+
+        #btn_sub:hover {
+            filter: alpha(Opacity=60);
+            -moz-opacity: 0.8;
+            opacity: 0.8;
+            cursor: pointer;
+        }
+
+        .error {
+            color: red;
+        }
+
+        #td_sub {
+            padding-left: 155px;
+            padding-top: 20px;
+        }
+    </style>
+    <script>
+        // 网页加载完毕后立即执行函数
+        window.onload = function () {
+            document.getElementById("form").onsubmit = function () {
+                return checkUsername() && checkPassword() && checkpassword();
+            };
+            document.getElementById("username").onblur = checkUsername;
+            document.getElementById("password").onblur = checkPassword;
+            document.getElementById("repassword").onblur = checkpassword;
+        };
+
+        function checkUsername() {
+            var username = document.getElementById("username").value;
+            var reg_username = /^\w{6,12}$/;
+            var flag = reg_username.test(username);
+            var s_username = document.getElementById("s_username");
+            if (flag) {
+                s_username.innerHTML = "<img width='35' height='25' src='../static/images/register_tick.png'>";
+            } else {
+                s_username.innerHTML = "格式有误";
+            }
+            return flag;
+        }
+
+        function checkPassword() {
+            var password = document.getElementById("password").value;
+            var reg_password = /^\w{6,12}$/;
+            var flag = reg_password.test(password);
+            var s_password = document.getElementById("s_password");
+            if (flag) {
+                s_password.innerHTML = "<img width='35' height='25' src='../static/images/register_tick.png'>";
+            } else {
+                s_password.innerHTML = "格式有误";
+            }
+            return flag;
+        }
+
+        function checkpassword() {
+            var password = document.getElementById("password").value;
+            var repassword = document.getElementById("repassword").value;
+
+            if (password == repassword) {
+                s_repassword.innerHTML = "<img width='35' height='25' src='../static/images/register_tick.png'>";
+            } else {
+                s_repassword.innerHTML = "密码不一致！";
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+
+<div class="rg_layout">
+
+    <div class="rg_left">
+        <p>新用户注册</p>
+        <p>USER REGISTER</p>
+    </div>
+
+    <div class="rg_center">
+        <div class="rg_form">
+            <form action="/register" id="form" method="POST">
+                <table>
+                    <tr>
+                        <td class="td_left"><label for="username">用户名</label></td>
+                        <td class="td_right">
+                            <input type="text" name="username" id="username" placeholder="请输入用户名">
+                            <span id="s_username" class="error"></span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="td_left"><label for="password">密码</label></td>
+                        <td class="td_right">
+                            <input type="password" name="password" id="password" placeholder="请输入密码">
+                            <span id="s_password" class="error"></span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="td_left"><label for="repassword">确认密码</label></td>
+                        <td class="td_right">
+                            <input type="password" name="repassword" id="repassword" placeholder="请再次输入密码">
+                            <span id="s_repassword" class="error"></span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="td_left"><label for="email">*Email</label></td>
+                        <td class="td_right"><input type="email" name="email" id="email" placeholder="请输入邮箱"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="td_left"><label for="tel">*手机号</label></td>
+                        <td class="td_right"><input type="text" name="tel" id="tel" placeholder="请输入手机号"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="td_left"><label>*性别</label></td>
+                        <td class="td_right">
+                            <input type="radio" name="gender" value="男" checked> 男
+                            <input type="radio" name="gender" value="女"> 女
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="td_left"><label for="birthday">*出生日期</label></td>
+                        <td class="td_right"><input type="date" name="birthday" id="birthday" placeholder="请输入出生日期">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" id="td_sub"><input type="submit" id="btn_sub" value="注册"></td>
+                    </tr>
+
+                </table>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="rg_right" style="list-style:none">
+        <p>&nbsp 已有账号?<a href="login.html">立即登录</a></p>
+        <li>{{msg}}</li>
+    </div>
+
+
+</div>
+
+</body>
+
+</html>

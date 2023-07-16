@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--Bootstrap Stylesheet [ REQUIRED ]-->
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+    <!--Pace - Page Load Progress Par [OPTIONAL]-->
+    <link href="../static/css/pace.min.css" rel="stylesheet">
+    <link href="../static/css/bootstrap-select.min.css" rel="stylesheet">
+
+    <script src="../static/js/pace.min.js"></script>
+    <!--jQuery [ REQUIRED ]-->
+    <script src="../static/js/jquery-2.2.4.min.js"></script>
+
+    <!--BootstrapJS [ RECOMMENDED ]-->
+    <script src="../static/js/bootstrap.min.js"></script>
+    <script src="../static/js/bootstrap-select.min.js"></script>
+    <!--NiftyJS [ RECOMMENDED ]-->
+    <script src="../static/js/nifty.min.js"></script>
+    <script src="../static/js/icons.js"></script>
+    <script src="../static/js/echarts.min.js"></script>
+    <style>
+        .file-box {
+            float: left;
+            position: relative;
+            width: 340px;
+            margin: 20px;
+        }
+
+        .txt {
+            height: 28px;
+            line-height: 28px;
+            border: 1px solid #cdcdcd;
+            width: 180px;
+        }
+
+        .btn {
+            width: 70px;
+            color: #fff;
+            background-color: #3598dc;
+            border: 0 none;
+            height: 28px;
+            line-height: 16px !important;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #63bfff;
+            color: #fff;
+        }
+
+        .file {
+            position: absolute;
+            top: 0;
+            right: 85px;
+            height: 30px;
+            line-height: 30px;
+            filter: alpha(opacity:0);
+            opacity: 0;
+            width: 254px
+        }
+
+        #test {
+            display: none;
+        }
+
+        #show {
+            /*float: left;*/
+            padding: 20px;
+        }
+
+        .show {
+            background-color: #28a745;
+            padding: 0px 0px 0px 0px;
+        }
+
+
+        #bound {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<!--    弹出详细信息框-->
+<div id="bound">
+    <div class="col-lg-1"></div>
+    <div class="col-lg-11">
+        <div class="row" style="width:200px;height:200px;">
+
+            <img id="picture" style="display:none;height:200px;" src="">
+        </div>
+        <div class="row">
+            <div class="basic-info ">
+                <dl class="basicInfo-block basicInfo-left" id="profile">
+
+                </dl>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<form action="/up_file" enctype='multipart/form-data' method='POST'>
+    <div class="file-box">
+        <input type="text" id="textfield" class="txt"/>
+        <input type="button" class="btn" value="浏览..."/>
+        <input type="submit" id="up" class="btn" value="上传" onclick="get_name()"/>
+        <input type="file" name="myfile" class="myfile file" id="fileField"
+               onchange="document.getElementById('textfield').value=this.files[0].name"/>
+    </div>
+    <div id="show">
+        <button type="button" class="show btn" onclick="show_graph()">生成图谱</button>
+<!--        <button type="button" class="show btn" onclick="saveAsImage()">导出为图片</button>-->
+    </div>
+</form>
+<div id="test">{{name}}</div>
+<div class="col-lg-12" style="height: 800px;" id="guanxi"></div>
+</body>
+<script type="text/javascript" src="../static/layer/layer.js"></script>
+<script type="text/javascript" src="../static/js/option.js"></script>
+<script type="text/javascript" src="../static/js/search.js"></script>
+<script type="text/javascript">
+    show()
+
+    function show() {
+        var rela = {"data": [], "links": []};
+        $.getJSON('../static/updata_file/Java.json', function (json) {
+            rela = json;
+        });
+        option.series[0].nodes = rela.data.map(function (node, idx) {
+            node.id = idx;
+            return node;
+        });
+        option.series[0].links = rela.links;
+        // 使用刚指定的配置项和数据显示图表
+        myChart.setOption(option, true);
+    }
+
+    function show_graph() {
+        var rela = {"data": [], "links": []};
+        var name = document.getElementById('test').innerHTML;
+        $.getJSON('../static/updata_file/' + name, function (json) {
+            rela = json;
+        });
+        option.series[0].nodes = rela.data.map(function (node, idx) {
+            node.id = idx;
+            return node;
+        });
+        option.series[0].links = rela.links;
+        // 使用刚指定的配置项和数据显示图表
+        myChart.setOption(option, true);
+    }
+
+    function get_name() {
+        var name = document.getElementById('textfield').value;
+        console.log("name:" + name)
+        if (name.length != 0) {
+            alert("上传成功,请点击生成图谱");
+        } else {
+            alert("未选择文件！");
+        }
+        // document.getElementById("test").innerHTML = '<h1>aaa</h1>';
+        // $("#test").html('11111');
+    }
+</script>
+</html>

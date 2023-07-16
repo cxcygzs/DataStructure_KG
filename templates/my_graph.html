@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>my_graph</title>
+    <style>
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            width: 1250px;
+            /*min-height: 600px;*/
+
+            /*line-height: 50px;*/
+            text-align: center;
+            /*表示相邻边框合并在一起*/
+            /*border-collapse: collapse;*/
+            /*固定表格长度和宽度*/
+            table-layout: fixed;
+            /*边框的间距*/
+            border-spacing: 5px;
+
+        }
+
+        /*最外层的边框*/
+        .box table {
+            border: 8px solid #EEEEEE;
+            /*border: 8px solid #C5D2CE;*/
+        }
+
+        /*表格线边框*/
+        .box table tr td {
+            /*border: 1px solid #0094ff;*/
+            border: 1px solid #E3D8D5;
+        }
+
+        .box table tr td {
+            height: 380px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="box">
+    <form action="/my_graph" class="form">
+        <table>
+            <!--            这是一个for循环，和下面的endfor配套使用，固定格式，输出u中的值-->
+            {% for i in u %}
+            <tr>
+                <td><img src="{{ i[0] }}" width="100%" height="100%" alt="未登录/未保存图片"></td>
+                <td><img src="{{ i[1] }}" width="100%" height="100%" alt="欢迎存放更多图片！"></td>
+            </tr>
+            {% endfor %}
+        </table>
+    </form>
+</div>
+</body>
+<!--<script>-->
+<!--    var s = document.getElementById('img').src;-->
+<!--    console.log(s)-->
+<!--    if(s=="未登录,请登录") {-->
+<!--        alert("未登录，请登录")-->
+<!--    }-->
+<!--</script>-->
+</html>

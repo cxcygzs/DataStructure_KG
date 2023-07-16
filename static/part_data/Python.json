@@ -1,0 +1,2517 @@
+{
+  "data": [
+    {
+      "name": "turtle的角度坐标体系",
+      "category": 5
+    },
+    {
+      "name": "整数类型",
+      "category": 6
+    },
+    {
+      "name": "网络空间",
+      "category": 5
+    },
+    {
+      "name": "人机交互和艺术设计",
+      "category": 5
+    },
+    {
+      "name": "BMI分析",
+      "category": 5
+    },
+    {
+      "name": "数值运算操作符",
+      "category": 5
+    },
+    {
+      "name": "33个保留字",
+      "category": 5
+    },
+    {
+      "name": "文件和数据格式化",
+      "category": 5
+    },
+    {
+      "name": "循环结构",
+      "category": 5
+    },
+    {
+      "name": "基本的程序设计模式",
+      "category": 5
+    },
+    {
+      "name": "计算生态概览",
+      "category": 5
+    },
+    {
+      "name": "集合类型定义",
+      "category": 5
+    },
+    {
+      "name": "switch",
+      "category": 4
+    },
+    {
+      "name": "jieba库基本介绍",
+      "category": 5
+    },
+    {
+      "name": "字典处理函数及方法",
+      "category": 5
+    },
+    {
+      "name": "RGB色彩体系",
+      "category": 5
+    },
+    {
+      "name": "游戏开发",
+      "category": 5
+    },
+    {
+      "name": "web网站开发",
+      "category": 5
+    },
+    {
+      "name": "字符串处理方法",
+      "category": 5
+    },
+    {
+      "name": "整数类型",
+      "category": 5
+    },
+    {
+      "name": "多分支结构",
+      "category": 5
+    },
+    {
+      "name": "计算思维与程序设计",
+      "category": 5
+    },
+    {
+      "name": "时间格式化",
+      "category": 5
+    },
+    {
+      "name": "路径操作",
+      "category": 5
+    },
+    {
+      "name": "函数和代码复用",
+      "category": 5
+    },
+    {
+      "name": "分支结构",
+      "category": 4
+    },
+    {
+      "name": "字典类类型",
+      "category": 5
+    },
+    {
+      "name": "基本图形绘制",
+      "category": 5
+    },
+    {
+      "name": "语法元素分析",
+      "category": 5
+    },
+    {
+      "name": "机器学习",
+      "category": 5
+    },
+    {
+      "name": "计算中位数",
+      "category": 5
+    },
+    {
+      "name": "时间获取",
+      "category": 5
+    },
+    {
+      "name": "计算生态与python语言",
+      "category": 5
+    },
+    {
+      "name": "一维数据格式化",
+      "category": 5
+    },
+    {
+      "name": "random库",
+      "category": 5
+    },
+    {
+      "name": "进程管理",
+      "category": 5
+    },
+    {
+      "name": "jieba库的安装",
+      "category": 5
+    },
+    {
+      "name": "其他功能",
+      "category": 5
+    },
+    {
+      "name": "一维数组的处理",
+      "category": 5
+    },
+    {
+      "name": "应用开发的四个步骤",
+      "category": 5
+    },
+    {
+      "name": "环境参数",
+      "category": 5
+    },
+    {
+      "name": "序列类型定义",
+      "category": 5
+    },
+    {
+      "name": "文件的打开和关闭",
+      "category": 5
+    },
+    {
+      "name": "画布设置",
+      "category": 5
+    },
+    {
+      "name": "语句与函数",
+      "category": 5
+    },
+    {
+      "name": "字典类型定义",
+      "category": 5
+    },
+    {
+      "name": "序列处理函数及方法",
+      "category": 5
+    },
+    {
+      "name": "Python程序设计思维",
+      "category": 5
+    },
+    {
+      "name": "字符串类型的表示",
+      "category": 5
+    },
+    {
+      "name": "分支结构",
+      "category": 5
+    },
+    {
+      "name": "基本数据类型",
+      "category": 6
+    },
+    {
+      "name": "安装第三方库的方法",
+      "category": 5
+    },
+    {
+      "name": "数据可视化",
+      "category": 5
+    },
+    {
+      "name": "web解析",
+      "category": 5
+    },
+    {
+      "name": "集合类型应用场景",
+      "category": 5
+    },
+    {
+      "name": "字符串处理函数",
+      "category": 5
+    },
+    {
+      "name": "文件的使用",
+      "category": 5
+    },
+    {
+      "name": "函数的参数传递",
+      "category": 5
+    },
+    {
+      "name": "jieba库",
+      "category": 5
+    },
+    {
+      "name": "复数类型",
+      "category": 5
+    },
+    {
+      "name": "人工智能",
+      "category": 5
+    },
+    {
+      "name": "组合数据类型",
+      "category": 5
+    },
+    {
+      "name": "程序计时",
+      "category": 5
+    },
+    {
+      "name": "用户体验与软件产品",
+      "category": 5
+    },
+    {
+      "name": "列表类型",
+      "category": 5
+    },
+    {
+      "name": "Python第三方库安装",
+      "category": 5
+    },
+    {
+      "name": "函数递归的理解",
+      "category": 5
+    },
+    {
+      "name": "函数的返回值",
+      "category": 5
+    },
+    {
+      "name": "数据的文件写入",
+      "category": 5
+    },
+    {
+      "name": "csv格式与二维数据存储",
+      "category": 5
+    },
+    {
+      "name": "图形用户界面",
+      "category": 5
+    },
+    {
+      "name": "一维数组的表示",
+      "category": 5
+    },
+    {
+      "name": "os库的使用",
+      "category": 5
+    },
+    {
+      "name": "遍历循环",
+      "category": 5
+    },
+    {
+      "name": "多输入",
+      "category": 5
+    },
+    {
+      "name": "扩展随机函数",
+      "category": 5
+    },
+    {
+      "name": "turtle的空间坐标体系",
+      "category": 5
+    },
+    {
+      "name": "turtle库的使用",
+      "category": 5
+    },
+    {
+      "name": "基本随机函数",
+      "category": 5
+    },
+    {
+      "name": "文件内容的获取",
+      "category": 5
+    },
+    {
+      "name": "图形艺术",
+      "category": 5
+    },
+    {
+      "name": "dowhile",
+      "category": 4
+    },
+    {
+      "name": "数字类型",
+      "category": 5
+    },
+    {
+      "name": "基本数据类型",
+      "category": 5
+    },
+    {
+      "name": "循环语句",
+      "category": 6
+    },
+    {
+      "name": "局部变量和全局变量",
+      "category": 5
+    },
+    {
+      "name": "二分支结构",
+      "category": 5
+    },
+    {
+      "name": "程序设计方法学",
+      "category": 5
+    },
+    {
+      "name": "获取不定长度的输入",
+      "category": 5
+    },
+    {
+      "name": "一维数组的存储",
+      "category": 5
+    },
+    {
+      "name": "集合操作符",
+      "category": 5
+    },
+    {
+      "name": "虚拟现实",
+      "category": 5
+    },
+    {
+      "name": "条件判断及组合",
+      "category": 5
+    },
+    {
+      "name": "计算平均值",
+      "category": 5
+    },
+    {
+      "name": "turtle的绘图窗体",
+      "category": 5
+    },
+    {
+      "name": "while",
+      "category": 4
+    },
+    {
+      "name": "数据处理",
+      "category": 5
+    },
+    {
+      "name": "goto",
+      "category": 4
+    },
+    {
+      "name": "二维数组的表示",
+      "category": 5
+    },
+    {
+      "name": "turtle程序语法",
+      "category": 5
+    },
+    {
+      "name": "if",
+      "category": 4
+    },
+    {
+      "name": "基本统计值计算",
+      "category": 5
+    },
+    {
+      "name": "Python",
+      "category": 5
+    },
+    {
+      "name": "函数的定义和使用",
+      "category": 5
+    },
+    {
+      "name": "运动控制",
+      "category": 5
+    },
+    {
+      "name": "循环语句",
+      "category": 5
+    },
+    {
+      "name": "python社区",
+      "category": 5
+    },
+    {
+      "name": "集合类型",
+      "category": 5
+    },
+    {
+      "name": "基本语法元素",
+      "category": 5
+    },
+    {
+      "name": "画笔设置",
+      "category": 5
+    },
+    {
+      "name": "集合处理方法",
+      "category": 5
+    },
+    {
+      "name": "网络应用开发",
+      "category": 5
+    },
+    {
+      "name": "程序的控制结构",
+      "category": 5
+    },
+    {
+      "name": "文件的类型",
+      "category": 5
+    },
+    {
+      "name": "time库",
+      "category": 5
+    },
+    {
+      "name": "字符串的序号",
+      "category": 5
+    },
+    {
+      "name": "循环控制保留字",
+      "category": 5
+    },
+    {
+      "name": "数据处理",
+      "category": 3
+    },
+    {
+      "name": "for",
+      "category": 4
+    },
+    {
+      "name": "字符串类型",
+      "category": 5
+    },
+    {
+      "name": "单分支结构",
+      "category": 5
+    },
+    {
+      "name": "元组类型",
+      "category": 5
+    },
+    {
+      "name": "无限循环",
+      "category": 5
+    },
+    {
+      "name": "程序的异常处理",
+      "category": 5
+    },
+    {
+      "name": "二维数据的处理",
+      "category": 5
+    },
+    {
+      "name": "多变量赋值",
+      "category": 5
+    },
+    {
+      "name": "web信息提取",
+      "category": 5
+    },
+    {
+      "name": "浮点类型",
+      "category": 5
+    },
+    {
+      "name": "网络爬虫",
+      "category": 5
+    },
+    {
+      "name": "字符串类型的格式化",
+      "category": 5
+    },
+    {
+      "name": "三种模式",
+      "category": 5
+    },
+    {
+      "name": "循环的高级用法",
+      "category": 5
+    },
+    {
+      "name": "turtle库",
+      "category": 5
+    },
+    {
+      "name": "程序控制结构",
+      "category": 5
+    },
+    {
+      "name": "代码复用和函数递归",
+      "category": 5
+    },
+    {
+      "name": "二维数据格式化",
+      "category": 5
+    },
+    {
+      "name": "代码复用",
+      "category": 5
+    },
+    {
+      "name": "方向控制",
+      "category": 5
+    },
+    {
+      "name": "字符串操作符",
+      "category": 5
+    },
+    {
+      "name": "循环结构",
+      "category": 4
+    },
+    {
+      "name": "序列类型",
+      "category": 5
+    },
+    {
+      "name": "python计算生态",
+      "category": 5
+    },
+    {
+      "name": "数据分析",
+      "category": 5
+    },
+    {
+      "name": "浮点类型",
+      "category": 6
+    }
+  ],
+  "links": [
+    {
+      "source": 102,
+      "target": 10,
+      "value": "包括"
+    },
+    {
+      "source": 10,
+      "target": 3,
+      "value": "包括"
+    },
+    {
+      "source": 3,
+      "target": 80,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 10,
+      "value": "包括"
+    },
+    {
+      "source": 10,
+      "target": 3,
+      "value": "包括"
+    },
+    {
+      "source": 3,
+      "target": 91,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 10,
+      "value": "包括"
+    },
+    {
+      "source": 10,
+      "target": 3,
+      "value": "包括"
+    },
+    {
+      "source": 3,
+      "target": 16,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 10,
+      "value": "包括"
+    },
+    {
+      "source": 10,
+      "target": 3,
+      "value": "包括"
+    },
+    {
+      "source": 3,
+      "target": 70,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 10,
+      "value": "包括"
+    },
+    {
+      "source": 10,
+      "target": 2,
+      "value": "包括"
+    },
+    {
+      "source": 2,
+      "target": 111,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 10,
+      "value": "包括"
+    },
+    {
+      "source": 10,
+      "target": 2,
+      "value": "包括"
+    },
+    {
+      "source": 2,
+      "target": 17,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 10,
+      "value": "包括"
+    },
+    {
+      "source": 10,
+      "target": 53,
+      "value": "包括"
+    },
+    {
+      "source": 53,
+      "target": 126,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 10,
+      "value": "包括"
+    },
+    {
+      "source": 10,
+      "target": 53,
+      "value": "包括"
+    },
+    {
+      "source": 53,
+      "target": 128,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 10,
+      "value": "包括"
+    },
+    {
+      "source": 10,
+      "target": 60,
+      "value": "包括"
+    },
+    {
+      "source": 60,
+      "target": 29,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 10,
+      "value": "包括"
+    },
+    {
+      "source": 10,
+      "target": 117,
+      "value": "包括"
+    },
+    {
+      "source": 117,
+      "target": 52,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 10,
+      "value": "包括"
+    },
+    {
+      "source": 10,
+      "target": 117,
+      "value": "包括"
+    },
+    {
+      "source": 117,
+      "target": 142,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 10,
+      "value": "包括"
+    },
+    {
+      "source": 10,
+      "target": 117,
+      "value": "包括"
+    },
+    {
+      "source": 117,
+      "target": 52,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 10,
+      "value": "包括"
+    },
+    {
+      "source": 10,
+      "target": 117,
+      "value": "包括"
+    },
+    {
+      "source": 117,
+      "target": 142,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 87,
+      "value": "包括"
+    },
+    {
+      "source": 87,
+      "target": 72,
+      "value": "包括"
+    },
+    {
+      "source": 72,
+      "target": 40,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 87,
+      "value": "包括"
+    },
+    {
+      "source": 87,
+      "target": 72,
+      "value": "包括"
+    },
+    {
+      "source": 72,
+      "target": 35,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 87,
+      "value": "包括"
+    },
+    {
+      "source": 87,
+      "target": 72,
+      "value": "包括"
+    },
+    {
+      "source": 72,
+      "target": 23,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 87,
+      "value": "包括"
+    },
+    {
+      "source": 87,
+      "target": 72,
+      "value": "包括"
+    },
+    {
+      "source": 72,
+      "target": 72,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 87,
+      "value": "包括"
+    },
+    {
+      "source": 87,
+      "target": 65,
+      "value": "包括"
+    },
+    {
+      "source": 65,
+      "target": 51,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 87,
+      "value": "包括"
+    },
+    {
+      "source": 87,
+      "target": 65,
+      "value": "包括"
+    },
+    {
+      "source": 65,
+      "target": 106,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 87,
+      "value": "包括"
+    },
+    {
+      "source": 87,
+      "target": 47,
+      "value": "包括"
+    },
+    {
+      "source": 47,
+      "target": 39,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 87,
+      "value": "包括"
+    },
+    {
+      "source": 87,
+      "target": 47,
+      "value": "包括"
+    },
+    {
+      "source": 47,
+      "target": 9,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 87,
+      "value": "包括"
+    },
+    {
+      "source": 87,
+      "target": 47,
+      "value": "包括"
+    },
+    {
+      "source": 47,
+      "target": 63,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 87,
+      "value": "包括"
+    },
+    {
+      "source": 87,
+      "target": 47,
+      "value": "包括"
+    },
+    {
+      "source": 47,
+      "target": 32,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 87,
+      "value": "包括"
+    },
+    {
+      "source": 87,
+      "target": 47,
+      "value": "包括"
+    },
+    {
+      "source": 47,
+      "target": 21,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 27,
+      "value": "包括"
+    },
+    {
+      "source": 27,
+      "target": 77,
+      "value": "包括"
+    },
+    {
+      "source": 77,
+      "target": 15,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 27,
+      "value": "包括"
+    },
+    {
+      "source": 27,
+      "target": 77,
+      "value": "包括"
+    },
+    {
+      "source": 77,
+      "target": 0,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 27,
+      "value": "包括"
+    },
+    {
+      "source": 27,
+      "target": 77,
+      "value": "包括"
+    },
+    {
+      "source": 77,
+      "target": 76,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 27,
+      "value": "包括"
+    },
+    {
+      "source": 27,
+      "target": 77,
+      "value": "包括"
+    },
+    {
+      "source": 77,
+      "target": 94,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 27,
+      "value": "包括"
+    },
+    {
+      "source": 27,
+      "target": 77,
+      "value": "包括"
+    },
+    {
+      "source": 77,
+      "target": 141,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 27,
+      "value": "包括"
+    },
+    {
+      "source": 27,
+      "target": 99,
+      "value": "包括"
+    },
+    {
+      "source": 99,
+      "target": 105,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 27,
+      "value": "包括"
+    },
+    {
+      "source": 27,
+      "target": 99,
+      "value": "包括"
+    },
+    {
+      "source": 99,
+      "target": 105,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 27,
+      "value": "包括"
+    },
+    {
+      "source": 27,
+      "target": 132,
+      "value": "相关库"
+    },
+    {
+      "source": 132,
+      "target": 37,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 27,
+      "value": "包括"
+    },
+    {
+      "source": 27,
+      "target": 132,
+      "value": "相关库"
+    },
+    {
+      "source": 132,
+      "target": 137,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 27,
+      "value": "包括"
+    },
+    {
+      "source": 27,
+      "target": 132,
+      "value": "相关库"
+    },
+    {
+      "source": 132,
+      "target": 104,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 27,
+      "value": "包括"
+    },
+    {
+      "source": 27,
+      "target": 132,
+      "value": "相关库"
+    },
+    {
+      "source": 132,
+      "target": 109,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 27,
+      "value": "包括"
+    },
+    {
+      "source": 27,
+      "target": 132,
+      "value": "相关库"
+    },
+    {
+      "source": 132,
+      "target": 43,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 7,
+      "value": "包括"
+    },
+    {
+      "source": 7,
+      "target": 135,
+      "value": "包括"
+    },
+    {
+      "source": 135,
+      "target": 124,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 7,
+      "value": "包括"
+    },
+    {
+      "source": 7,
+      "target": 135,
+      "value": "包括"
+    },
+    {
+      "source": 135,
+      "target": 69,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 7,
+      "value": "包括"
+    },
+    {
+      "source": 7,
+      "target": 135,
+      "value": "包括"
+    },
+    {
+      "source": 135,
+      "target": 98,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 7,
+      "value": "包括"
+    },
+    {
+      "source": 7,
+      "target": 33,
+      "value": "包括"
+    },
+    {
+      "source": 33,
+      "target": 38,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 7,
+      "value": "包括"
+    },
+    {
+      "source": 7,
+      "target": 33,
+      "value": "包括"
+    },
+    {
+      "source": 33,
+      "target": 89,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 7,
+      "value": "包括"
+    },
+    {
+      "source": 7,
+      "target": 33,
+      "value": "包括"
+    },
+    {
+      "source": 33,
+      "target": 71,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 7,
+      "value": "包括"
+    },
+    {
+      "source": 7,
+      "target": 56,
+      "value": "包括"
+    },
+    {
+      "source": 56,
+      "target": 68,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 7,
+      "value": "包括"
+    },
+    {
+      "source": 7,
+      "target": 56,
+      "value": "包括"
+    },
+    {
+      "source": 56,
+      "target": 79,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 7,
+      "value": "包括"
+    },
+    {
+      "source": 7,
+      "target": 56,
+      "value": "包括"
+    },
+    {
+      "source": 56,
+      "target": 42,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 7,
+      "value": "包括"
+    },
+    {
+      "source": 7,
+      "target": 56,
+      "value": "包括"
+    },
+    {
+      "source": 56,
+      "target": 113,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 61,
+      "value": "包括"
+    },
+    {
+      "source": 61,
+      "target": 58,
+      "value": "相关库"
+    },
+    {
+      "source": 58,
+      "target": 130,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 61,
+      "value": "包括"
+    },
+    {
+      "source": 61,
+      "target": 58,
+      "value": "相关库"
+    },
+    {
+      "source": 58,
+      "target": 36,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 61,
+      "value": "包括"
+    },
+    {
+      "source": 61,
+      "target": 58,
+      "value": "相关库"
+    },
+    {
+      "source": 58,
+      "target": 13,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 61,
+      "value": "包括"
+    },
+    {
+      "source": 61,
+      "target": 26,
+      "value": "包括"
+    },
+    {
+      "source": 26,
+      "target": 14,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 61,
+      "value": "包括"
+    },
+    {
+      "source": 61,
+      "target": 26,
+      "value": "包括"
+    },
+    {
+      "source": 26,
+      "target": 45,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 61,
+      "value": "包括"
+    },
+    {
+      "source": 61,
+      "target": 101,
+      "value": "包括"
+    },
+    {
+      "source": 101,
+      "target": 30,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 61,
+      "value": "包括"
+    },
+    {
+      "source": 61,
+      "target": 101,
+      "value": "包括"
+    },
+    {
+      "source": 101,
+      "target": 93,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 61,
+      "value": "包括"
+    },
+    {
+      "source": 61,
+      "target": 101,
+      "value": "包括"
+    },
+    {
+      "source": 101,
+      "target": 88,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 61,
+      "value": "包括"
+    },
+    {
+      "source": 61,
+      "target": 140,
+      "value": "包括"
+    },
+    {
+      "source": 140,
+      "target": 64,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 61,
+      "value": "包括"
+    },
+    {
+      "source": 61,
+      "target": 140,
+      "value": "包括"
+    },
+    {
+      "source": 140,
+      "target": 121,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 61,
+      "value": "包括"
+    },
+    {
+      "source": 61,
+      "target": 140,
+      "value": "包括"
+    },
+    {
+      "source": 140,
+      "target": 46,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 61,
+      "value": "包括"
+    },
+    {
+      "source": 61,
+      "target": 140,
+      "value": "包括"
+    },
+    {
+      "source": 140,
+      "target": 41,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 61,
+      "value": "包括"
+    },
+    {
+      "source": 61,
+      "target": 107,
+      "value": "包括"
+    },
+    {
+      "source": 107,
+      "target": 54,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 61,
+      "value": "包括"
+    },
+    {
+      "source": 61,
+      "target": 107,
+      "value": "包括"
+    },
+    {
+      "source": 107,
+      "target": 110,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 61,
+      "value": "包括"
+    },
+    {
+      "source": 61,
+      "target": 107,
+      "value": "包括"
+    },
+    {
+      "source": 107,
+      "target": 90,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 61,
+      "value": "包括"
+    },
+    {
+      "source": 61,
+      "target": 107,
+      "value": "包括"
+    },
+    {
+      "source": 107,
+      "target": 11,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 24,
+      "value": "包括"
+    },
+    {
+      "source": 24,
+      "target": 134,
+      "value": "包括"
+    },
+    {
+      "source": 134,
+      "target": 66,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 24,
+      "value": "包括"
+    },
+    {
+      "source": 24,
+      "target": 134,
+      "value": "包括"
+    },
+    {
+      "source": 134,
+      "target": 136,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 24,
+      "value": "包括"
+    },
+    {
+      "source": 24,
+      "target": 103,
+      "value": "包括"
+    },
+    {
+      "source": 103,
+      "target": 85,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 24,
+      "value": "包括"
+    },
+    {
+      "source": 24,
+      "target": 103,
+      "value": "包括"
+    },
+    {
+      "source": 103,
+      "target": 67,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 24,
+      "value": "包括"
+    },
+    {
+      "source": 24,
+      "target": 103,
+      "value": "包括"
+    },
+    {
+      "source": 103,
+      "target": 57,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 24,
+      "value": "包括"
+    },
+    {
+      "source": 24,
+      "target": 103,
+      "value": "包括"
+    },
+    {
+      "source": 103,
+      "target": 103,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 34,
+      "value": "相关库"
+    },
+    {
+      "source": 34,
+      "target": 75,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 34,
+      "value": "相关库"
+    },
+    {
+      "source": 34,
+      "target": 78,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 139,
+      "value": "包括"
+    },
+    {
+      "source": 139,
+      "target": 131,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 139,
+      "value": "包括"
+    },
+    {
+      "source": 139,
+      "target": 116,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 139,
+      "value": "包括"
+    },
+    {
+      "source": 139,
+      "target": 122,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 139,
+      "value": "包括"
+    },
+    {
+      "source": 139,
+      "target": 73,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 139,
+      "value": "包括"
+    },
+    {
+      "source": 139,
+      "target": 131,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 139,
+      "value": "包括"
+    },
+    {
+      "source": 139,
+      "target": 116,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 139,
+      "value": "包括"
+    },
+    {
+      "source": 139,
+      "target": 122,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 139,
+      "value": "包括"
+    },
+    {
+      "source": 139,
+      "target": 73,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 139,
+      "value": "包括"
+    },
+    {
+      "source": 139,
+      "target": 97,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 139,
+      "value": "包括"
+    },
+    {
+      "source": 139,
+      "target": 81,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 139,
+      "value": "包括"
+    },
+    {
+      "source": 139,
+      "target": 118,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 139,
+      "value": "包括"
+    },
+    {
+      "source": 139,
+      "target": 95,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 4,
+      "value": "包括"
+    },
+    {
+      "source": 4,
+      "target": 125,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 4,
+      "value": "包括"
+    },
+    {
+      "source": 4,
+      "target": 74,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 49,
+      "value": "包括"
+    },
+    {
+      "source": 49,
+      "target": 123,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 49,
+      "value": "包括"
+    },
+    {
+      "source": 49,
+      "target": 92,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 49,
+      "value": "包括"
+    },
+    {
+      "source": 49,
+      "target": 112,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 49,
+      "value": "包括"
+    },
+    {
+      "source": 49,
+      "target": 20,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 49,
+      "value": "包括"
+    },
+    {
+      "source": 49,
+      "target": 86,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 49,
+      "value": "包括"
+    },
+    {
+      "source": 49,
+      "target": 120,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 49,
+      "value": "包括"
+    },
+    {
+      "source": 49,
+      "target": 123,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 49,
+      "value": "包括"
+    },
+    {
+      "source": 49,
+      "target": 92,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 49,
+      "value": "包括"
+    },
+    {
+      "source": 49,
+      "target": 112,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 49,
+      "value": "包括"
+    },
+    {
+      "source": 49,
+      "target": 20,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 49,
+      "value": "包括"
+    },
+    {
+      "source": 49,
+      "target": 86,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 49,
+      "value": "包括"
+    },
+    {
+      "source": 49,
+      "target": 120,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 49,
+      "value": "包括"
+    },
+    {
+      "source": 49,
+      "target": 12,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 133,
+      "value": "包括"
+    },
+    {
+      "source": 133,
+      "target": 49,
+      "value": "包括"
+    },
+    {
+      "source": 49,
+      "target": 100,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 114,
+      "value": "相关库"
+    },
+    {
+      "source": 114,
+      "target": 62,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 114,
+      "value": "相关库"
+    },
+    {
+      "source": 114,
+      "target": 22,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 114,
+      "value": "相关库"
+    },
+    {
+      "source": 114,
+      "target": 31,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 119,
+      "value": "包括"
+    },
+    {
+      "source": 119,
+      "target": 129,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 119,
+      "value": "包括"
+    },
+    {
+      "source": 119,
+      "target": 18,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 119,
+      "value": "包括"
+    },
+    {
+      "source": 119,
+      "target": 55,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 119,
+      "value": "包括"
+    },
+    {
+      "source": 119,
+      "target": 138,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 119,
+      "value": "包括"
+    },
+    {
+      "source": 119,
+      "target": 48,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 82,
+      "value": "包括"
+    },
+    {
+      "source": 82,
+      "target": 5,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 82,
+      "value": "包括"
+    },
+    {
+      "source": 82,
+      "target": 59,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 82,
+      "value": "包括"
+    },
+    {
+      "source": 82,
+      "target": 143,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 82,
+      "value": "包括"
+    },
+    {
+      "source": 82,
+      "target": 143,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 82,
+      "value": "包括"
+    },
+    {
+      "source": 82,
+      "target": 19,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 82,
+      "value": "包括"
+    },
+    {
+      "source": 82,
+      "target": 19,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 114,
+      "value": "相关库"
+    },
+    {
+      "source": 114,
+      "target": 62,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 114,
+      "value": "相关库"
+    },
+    {
+      "source": 114,
+      "target": 22,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 114,
+      "value": "相关库"
+    },
+    {
+      "source": 114,
+      "target": 31,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 119,
+      "value": "包括"
+    },
+    {
+      "source": 119,
+      "target": 129,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 119,
+      "value": "包括"
+    },
+    {
+      "source": 119,
+      "target": 18,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 119,
+      "value": "包括"
+    },
+    {
+      "source": 119,
+      "target": 55,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 119,
+      "value": "包括"
+    },
+    {
+      "source": 119,
+      "target": 138,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 119,
+      "value": "包括"
+    },
+    {
+      "source": 119,
+      "target": 48,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 82,
+      "value": "包括"
+    },
+    {
+      "source": 82,
+      "target": 5,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 82,
+      "value": "包括"
+    },
+    {
+      "source": 82,
+      "target": 59,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 82,
+      "value": "包括"
+    },
+    {
+      "source": 82,
+      "target": 143,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 82,
+      "value": "包括"
+    },
+    {
+      "source": 82,
+      "target": 143,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 82,
+      "value": "包括"
+    },
+    {
+      "source": 82,
+      "target": 19,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 83,
+      "value": "包括"
+    },
+    {
+      "source": 83,
+      "target": 82,
+      "value": "包括"
+    },
+    {
+      "source": 82,
+      "target": 19,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 108,
+      "value": "包括"
+    },
+    {
+      "source": 108,
+      "target": 28,
+      "value": "包括"
+    },
+    {
+      "source": 28,
+      "target": 44,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 108,
+      "value": "包括"
+    },
+    {
+      "source": 108,
+      "target": 28,
+      "value": "包括"
+    },
+    {
+      "source": 28,
+      "target": 115,
+      "value": "包括"
+    },
+    {
+      "source": 102,
+      "target": 108,
+      "value": "包括"
+    },
+    {
+      "source": 108,
+      "target": 28,
+      "value": "包括"
+    },
+    {
+      "source": 28,
+      "target": 6,
+      "value": "包括"
+    }
+  ]
+}

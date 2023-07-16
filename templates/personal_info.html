@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/personal_info.css"/>
+
+</head>
+
+<body>
+
+<div class="box">
+    <div class="left">
+        <div class="left_up">
+            <form action="/personal_info" class="form">
+                <table>
+                    {% for i in u %}
+                    <tr>
+                        <td>用户名:</td>
+                        <td id="is_login">{{ i[1] }}</td>
+                    </tr>
+
+                    <tr>
+                        <td>性别：</td>
+                        <td>{{ i[5] }}</td>
+                    </tr>
+
+                    <tr>
+                        <td>出生日期：</td>
+                        <td>{{ i[6] }}</td>
+                    </tr>
+
+                    <tr>
+                        <td>邮箱：</td>
+                        <td>{{ i[3] }}</td>
+                    </tr>
+
+                    <tr>
+                        <td>联系方式：</td>
+                        <td>{{ i[4] }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </form>
+        </div>
+        <div class="left_down">
+            <!-- 横线 -->
+            <div class="line"></div>
+            <!-- 标题：我的图谱 -->
+            <div class="title">
+                <a href="/my_graph">我的图谱</a>
+            </div>
+<!--            存放图片盒子-->
+            <div class="graph">
+                <img src="../static/images/graph.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class=right>
+        <div class="right_up"><img src="../static/images/sky.jpg" alt=""></div>
+        <div class="right_down"></div>
+    </div>
+</div>
+
+<script>
+    a = document.getElementById("is_login").innerHTML
+    // console.log("a=" + a)
+    if(a=="未登录,请登录") {
+        // console.log("a=" + a)
+        document.getElementById("is_login").innerHTML = "未登录，请<a href='login.html' target='_blank'>登录</a>"
+    }
+
+</script>
+
+</body>
+
+</html>
